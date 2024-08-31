@@ -1,0 +1,28 @@
+{
+  "name": "test-app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.2",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/solid-js": "^4.4.1",
+    "@astrojs/svelte": "^5.7.0",
+    "@astrojs/vue": "^4.5.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.14.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "solid-js": "^1.8.22",
+    "svelte": "^4.2.19",
+    "typescript": "^5.5.4",
+    "vue": "^3.4.38"
+  }
+}

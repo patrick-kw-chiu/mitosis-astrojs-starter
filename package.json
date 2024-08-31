@@ -1,0 +1,22 @@
+{
+	"name": "mitosis-astrojs-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "watch \"npm run build\" ./src",
+		"build": "mitosis build --c mitosis.config.cjs && cp -R ./output ./test-app/src",
+		"lint": "eslint"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@builder.io/eslint-plugin-mitosis": "^0.0.16",
+		"@builder.io/mitosis": "^0.3.22",
+		"@builder.io/mitosis-cli": "^0.3.22"
+	},
+	"devDependencies": {
+		"watch": "^1.0.2"
+	}
+}
