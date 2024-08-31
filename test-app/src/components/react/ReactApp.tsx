@@ -1,6 +1,6 @@
 import MyAwesomeComponent from "../../output/react/src/MyAwesomeComponent";
 
-function ReactApp(props) {
+function ReactApp() {
 	return (
 		<div>
 			<MyAwesomeComponent />
