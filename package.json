@@ -2,7 +2,6 @@
 	"name": "mitosis-astrojs-starter",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
 	"scripts": {
 		"start": "watch \"npm run build\" ./src",
 		"build": "mitosis build --c mitosis.config.cjs && cp -R ./output ./test-app/src",
@@ -18,5 +17,15 @@
 	},
 	"devDependencies": {
 		"watch": "^1.0.2"
-	}
+	},
+	"main": "./output/react/src/MyAwesomeComponent.tsx",
+	"exports": {
+		"./react": "./output/react/src/MyAwesomeComponent.tsx",
+		"./svelte": "./output/svelte/src/MyAwesomeComponent.svelte",
+		"./vue": "./output/vue/src/MyAwesomeComponent.vue",
+		"./solid": "./output/solid/src/MyAwesomeComponent.tsx"
+	},
+	"files": [
+		"output/**/*"
+	]
 }
